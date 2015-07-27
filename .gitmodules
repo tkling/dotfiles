@@ -1,0 +1,3 @@
+[submodule "git-prompt"]
+	path = git-prompt
+	url = git@github.com:tkling/git-prompt.git
