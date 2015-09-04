@@ -5,7 +5,7 @@ A set of things I like to have on every `bash`-able system I work on.
   my bash profile - it is the file that then sources everything else. 
 - `env.sh` sets up a couple things:
   - bash completion
-  - personal prompt - shows git info
+  - [personal prompt](https://github.com/tkling/git-prompt) - shows git info
   - aliases
 
 ##installation
