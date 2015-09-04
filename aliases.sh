@@ -5,9 +5,12 @@ alias reload="exec $SHELL -l"
 me="~/dotfiles/aliases.sh"
 
 alias editaliases="vim ${me}"
+alias editprofile="vim ~/.profile"
 alias editvimrc="vim ~/.vimrc"
+
 alias showvimrc="cat ~/.vimrc"
 alias showaliases="cat ${me}"
+alias showprofile="cat ~/.profile"
 
 alias gits="git status"
 alias gitco="git checkout"
