@@ -1,10 +1,12 @@
 #tkling's dotfiles
 A set of things I like to have on every `bash`-able system I work on.
 
-- sets up aliases I like to use
-- sources bash completion
 - sources a file, `env.sh`, in which I keep env vars I need. This file is the only thing sourced into
   my bash profile - it is the file that then sources everything else. 
+- `env.sh` sets up a couple things:
+  - bash completion
+  - personal prompt - shows git info
+  - aliases
 
 ##installation
 ```bash
