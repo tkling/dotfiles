@@ -1,12 +1,12 @@
-#tkling's dotfiles
-A set of things I like to have on every `bash`-able system I work on.
-
-- sources a file, `env.sh`, in which I keep env vars I need. This file is the only thing sourced into
+#my dotfiles
+Personal workstation customization stuff.
+- sources a file, `env.sh`, for environment variables and sourcing other things. This file is the only thing sourced into
   my bash profile - it is the file that then sources everything else. 
 - `env.sh` sets up a couple things:
   - bash completion
   - [personal prompt](https://github.com/tkling/git-prompt) - shows git info
   - aliases
+  - not stored in source control since I keep env vars in it, some sensitive. Due to this it's templated in the repo and copied when you run `./bootstrap.sh`
 
 ##installation
 ```bash
