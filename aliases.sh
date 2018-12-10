@@ -2,7 +2,7 @@ alias lsl="ls -lah"
 alias consumer="cd ~/dev/consumer"
 alias reload="exec $SHELL -l"
 
-me="~/dotfiles/aliases.sh"
+me="~/.dotfiles/aliases.sh"
 
 alias editaliases="vim ${me}"
 alias editprofile="vim ~/.profile"
